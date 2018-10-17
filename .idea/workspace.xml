@@ -25,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/apap/tutorial6/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -78,6 +78,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FlightDbTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/apap/tutorial6/repository/FlightDbTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/apap/tutorial6/DemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -86,6 +107,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -464,6 +488,7 @@
     <option name="width" value="1440" />
     <option name="height" value="878" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -489,6 +514,21 @@
               <item name="tutorial-6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorial-6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tutorial6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tutorial-6" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tutorial6" type="b2602c69:ProjectViewProjectNode" />
@@ -570,34 +610,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlightDbTest">
-    <configuration name="FlightControllerTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorial6_test" />
+  <component name="RunManager" selected="Application.DemoApplication">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.DemoApplication" />
+      <module name="tutorial6_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.apap.tutorial6.controller.*" />
+          <option name="PATTERN" value="com.apap.tutorial6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in tutorial6_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial6_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.apap.tutorial6.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.controller.FlightControllerTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="DemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial6_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apap.tutorial6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.apap.tutorial6" />
+      <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.DemoApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="FlightControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightControllerTest.givenFlightNumber_whenViewFlight_thenReturnJsonFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tutorial6_test" />
       <extension name="coverage">
         <pattern>
@@ -609,8 +677,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.apap.tutorial6.controller" />
       <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.controller.FlightControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenFlightNumber_whenViewFlight_thenReturnJsonFlight" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -634,52 +702,6 @@
       <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.repository.FlightDbTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlightDbTest.whenFindByFlightNumber_thenReturnFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorial6_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.apap.tutorial6.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.apap.tutorial6.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.repository.FlightDbTest" />
-      <option name="METHOD_NAME" value="whenFindByFlightNumber_thenReturnFlight" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="FlightServiceTest.whenValidFlightNumber_thenFlightShouldBeFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tutorial6_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.apap.tutorial6.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.apap.tutorial6.service" />
-      <option name="MAIN_CLASS_NAME" value="com.apap.tutorial6.service.FlightServiceTest" />
-      <option name="METHOD_NAME" value="whenValidFlightNumber_thenFlightShouldBeFound" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -728,19 +750,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FlightControllerTest" />
-      <item itemvalue="Android JUnit.FlightControllerTest" />
-      <item itemvalue="JUnit.FlightDbTest.whenFindByFlightNumber_thenReturnFlight" />
       <item itemvalue="JUnit.FlightDbTest" />
-      <item itemvalue="JUnit.FlightServiceTest.whenValidFlightNumber_thenFlightShouldBeFound" />
+      <item itemvalue="Application.DemoApplication" />
+      <item itemvalue="JUnit.FlightControllerTest.givenFlightNumber_whenViewFlight_thenReturnJsonFlight" />
+      <item itemvalue="JUnit.DemoApplicationTests" />
+      <item itemvalue="JUnit.All in tutorial6_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoApplication" />
+        <item itemvalue="JUnit.All in tutorial6_test" />
+        <item itemvalue="JUnit.DemoApplicationTests" />
         <item itemvalue="JUnit.FlightDbTest" />
-        <item itemvalue="JUnit.FlightDbTest.whenFindByFlightNumber_thenReturnFlight" />
-        <item itemvalue="JUnit.FlightServiceTest.whenValidFlightNumber_thenFlightShouldBeFound" />
-        <item itemvalue="JUnit.FlightControllerTest" />
-        <item itemvalue="Android JUnit.FlightControllerTest" />
+        <item itemvalue="JUnit.FlightControllerTest.givenFlightNumber_whenViewFlight_thenReturnJsonFlight" />
       </list>
     </recent_temporary>
   </component>
@@ -758,18 +780,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FlightDbTest - 2018.10.17 at 17h 06m 08s.xml">
-      <configuration name="FlightDbTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightDbTest - 2018.10.17 at 17h 14m 10s.xml">
-      <configuration name="FlightDbTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightDbTest - 2018.10.17 at 17h 15m 00s.xml">
-      <configuration name="FlightDbTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlightServiceTest_whenValidFlightNumber_thenFlightShouldBeFound - 2018.10.17 at 17h 18m 20s.xml">
-      <configuration name="FlightServiceTest.whenValidFlightNumber_thenFlightShouldBeFound" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FlightDbTest_whenFindByFlightNumber_thenReturnFlight - 2018.10.17 at 17h 23m 22s.xml">
       <configuration name="FlightDbTest.whenFindByFlightNumber_thenReturnFlight" configurationId="JUnit" />
     </history-entry>
@@ -788,6 +798,18 @@
     <history-entry file="FlightDbTest - 2018.10.17 at 17h 29m 26s.xml">
       <configuration name="FlightDbTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FlightControllerTest_givenFlightNumber_whenViewFlight_thenReturnJsonFlight - 2018.10.17 at 17h 48m 28s.xml">
+      <configuration name="FlightControllerTest.givenFlightNumber_whenViewFlight_thenReturnJsonFlight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FlightDbTest - 2018.10.17 at 17h 48m 37s.xml">
+      <configuration name="FlightDbTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests - 2018.10.17 at 17h 48m 53s.xml">
+      <configuration name="DemoApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tutorial6_test - 2018.10.17 at 17h 48m 59s.xml">
+      <configuration name="All in tutorial6_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -800,10 +822,10 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32848486" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22246066" />
@@ -858,13 +880,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/apap/tutorial6/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/apap/tutorial6/service/FlightServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -874,6 +889,20 @@
             <element signature="e#722#723#0" expanded="true" />
             <element signature="e#775#776#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="1" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -887,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/apap/tutorial6/repository/FlightDbTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -904,10 +926,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/apap/tutorial6/DemoApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="1" selection-end-line="4" />
+        <state relative-caret-position="90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/apap/tutorial6/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
